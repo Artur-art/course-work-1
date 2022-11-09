@@ -2,7 +2,6 @@ public class Main {
     private static Employee[] employees;
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         employees = new Employee[10];
         employees[0] = new Employee("Hulk Hogan", 2, 123675.87);
         employees[1] = new Employee("Dwayne Jhonson", 3, 87641.87);
